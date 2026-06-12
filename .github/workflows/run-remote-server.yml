@@ -3,9 +3,9 @@ name: Click Here To Run
 on:
   workflow_dispatch:
     inputs:
-      ts_tailnet: { description: "Tailscale tailnet (e.g. yourname.github, yourname@mail.com, etc.)", required: true }
-      ts_authkey: { description: "Tailscale Auth key (reusable or ephemeral) (eg. tskey-auth-blablablabla)", required: true }
-      ts_api_key: { description: "Tailscale API key (device admin, no Bearer) (eg. tskey-api-blablablabla)", required: true }
+      ts_tailnet: { description: "Tailscale tailnet (nestersayanush-bit.github, nestersayanush@gmail.com, etc.)", required: true }
+      ts_authkey: { description: "Tailscale Auth key (tskey-auth-kpRtMpvSta11CNTRL-yv8pK3R8puBsuh4gx4c6uBDhMRwpES2bZ) (eg. tskey-auth-blablablabla)", required: true }
+      ts_api_key: { description: "Tailscale API key (tskey-api-kQCNiaESfT11CNTRL-hf9QJHBHQPTPWw36EnDWQTz1dtnsvXTDL) (eg. tskey-api-blablablabla)", required: true }
 
 permissions:
   contents: read
